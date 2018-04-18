@@ -1,31 +1,70 @@
-[{
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "保洁"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "保姆"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "月嫂"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "育儿嫂"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "货运"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "搬家"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "家电维修"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "数码维修"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "房屋维修"
-}, {
-    "icon": "icon-gouwuche-xuanzhong",
-    "tit": "数码安装"
-}]
+{
+    "list": [{
+            "list": [{
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "保洁"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "保姆"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "月嫂"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "育儿嫂"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "货运"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "搬家"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "家电维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "数码维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "房屋维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "数码安装"
+            }]
+        },
+        {
+            "list": [{
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "保洁"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "保姆"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "月嫂"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "育儿嫂"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "货运"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "搬家"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "家电维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "数码维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "房屋维修"
+            }, {
+                "icon": "icon-gouwuche-xuanzhong",
+                "tit": "数码安装"
+            }]
+        }
+
+    ]
+}

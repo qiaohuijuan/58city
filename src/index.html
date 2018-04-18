@@ -28,22 +28,17 @@
         </header>
         <script id='content' type='text/x-handlebars-template'>
             <div class="swiper-wrapper">
+                {{#each this}}
                 <div class="swiper-slide">
-                    {{#each this}}
+                    {{#each this.list}}
                     <dl>
+                        {{this.list}}
                         <dt><i class='iconfont {{this.icon}}'></i></dt>
                         <dd>{{this.tit}}</dd>
                     </dl>
                     {{/each}}
                 </div>
-                <div class="swiper-slide">
-                    {{#each this}}
-                    <dl>
-                        <dt><i class='iconfont {{this.icon}}'></i></dt>
-                        <dd>{{this.tit}}</dd>
-                    </dl>
-                    {{/each}}
-                </div>
+                {{/each}}
             </div>
             <div class="swiper-pagination page" style='bottom:0px;'></div>
         </script>

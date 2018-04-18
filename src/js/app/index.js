@@ -15,9 +15,10 @@ require(['jquery', 'Handlebars', 'Swiper', 'IScroll'], function($, Handlebars, S
     })
 
     function render(data) {
+        var data1 = data.list;
         var source = $('#content').html();
         var template = Handlebars.compile(source);
-        var html = template(data);
+        var html = template(data1);
         $('.banner').html(html);
         new Swiper('.banner', {
             autoplay: 1000,
@@ -27,7 +28,6 @@ require(['jquery', 'Handlebars', 'Swiper', 'IScroll'], function($, Handlebars, S
     }
 
     function init(obj) {
-        console.log(obj);
         var home = obj.home;
         var source = $('#mainlist').html();
         var template = Handlebars.compile(source);
