@@ -1,0 +1,66 @@
+{
+    "home": [{
+        "icon": "icon-eyeopen",
+        "title": "到家精选",
+        "homelist": [{
+                "tit1": "专业疏通管道",
+                "tit2": "上门快 价格低",
+                "url": "img/1.png"
+            },
+            {
+                "tit1": "iPhone维修",
+                "tit2": "快速响应",
+                "url": "img/2.png"
+            },
+            {
+                "tit1": "快速开换锁",
+                "tit2": "安全 专业",
+                "url": "img/3.png"
+            },
+            {
+                "tit1": "专业疏通管道",
+                "tit2": "上门快 价格低",
+                "url": "img/1.png"
+            },
+            {
+                "tit1": "iPhone",
+                "tit2": "快速响应",
+                "url": "img/2.png"
+            },
+            {
+                "tit1": "快速开换锁",
+                "tit2": "安全专业",
+                "url": "img/3.png"
+            }
+        ]
+    }],
+    "now": [{
+        "icon": "icon-fenxiang5",
+        "title": "立即上门",
+        "homelist": [{
+                "tit1": "电脑维修",
+                "url": "img/4.png"
+            },
+            {
+                "tit1": "手机维修",
+                "url": "img/5.png"
+            },
+            {
+                "tit1": "管道维修",
+                "url": "img/6.png"
+            },
+            {
+                "tit1": "开锁换锁",
+                "url": "img/4.png"
+            },
+            {
+                "tit1": "iPhone",
+                "url": "img/5.png"
+            },
+            {
+                "tit1": "快速开换锁",
+                "url": "img/6.png"
+            }
+        ]
+    }]
+}

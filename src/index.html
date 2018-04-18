@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="top">
+                <i></i>
+                <a href="javascript:;">58到家</a>
+                <span>
+                    <img src="img/logo.png" alt="">
+                </span>
+            </div>
+            <nav>
+                <a href="javascript:;">北京八维教育... <i class='iconfont icon-angle-down'></i></a>
+                <p><i class='iconfont icon-fangdajing'></i><input type="text" placeholder="搜索您需要的服务"></p>
+            </nav>
+        </header>
+        <script id='content' type='text/x-handlebars-template'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    {{#each this}}
+                    <dl>
+                        <dt><i class='iconfont {{this.icon}}'></i></dt>
+                        <dd>{{this.tit}}</dd>
+                    </dl>
+                    {{/each}}
+                </div>
+                <div class="swiper-slide">
+                    {{#each this}}
+                    <dl>
+                        <dt><i class='iconfont {{this.icon}}'></i></dt>
+                        <dd>{{this.tit}}</dd>
+                    </dl>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="swiper-pagination page" style='bottom:0px;'></div>
+        </script>
+        <section class='section'>
+            <div class="swiper-container banner">
+            </div>
+            <div class="main"></div>
+            <div class="inp"></div>
+        </section>
+        <script id='mainlist' type='text/x-handlebars-template'>
+            <div class='gohome'>
+                {{#each this}}
+                <h1><i class='iconfont {{this.icon}}'></i>{{this.title}}</h1>
+                <div class="navlist">
+                    <ul class="list">
+                        {{#each this.homelist}}
+                        <li>
+                            <h6>{{this.tit1}}</h6>
+                            <span>{{this.tit2}}</span>
+                            <img src='{{this.url}}'>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id='nowlist' type='text/x-handlebars-template'>
+            <div class='immediately'>
+                {{#each this}}
+                <h1><i class='iconfont {{this.icon}}'></i>{{this.title}}</h1>
+                <div class="navlist navlist1">
+                    <ul class="list list1">
+                        {{#each this.homelist}}
+                        <li>
+                            <img src='{{this.url}}'>
+                            <h6>{{this.tit1}}</h6>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+
+
+        <footer>
+            <ul class='footer'>
+                <li class='on'><i class="iconfont icon-shouye"></i>首页</li>
+                <li><i class="iconfont icon-wodedingdan"></i>发服务</li>
+                <li><i class="iconfont icon-xiaoxi"></i>消息</li>
+                <li><i class="iconfont icon-wode"></i>我的</li>
+            </ul>
+        </footer>
+    </div>
+    <script src='./js/require.js' async='true' data-main='./js/main'></script>
+</body>
+
+</html>
